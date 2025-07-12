@@ -5,3 +5,27 @@ __pycache__/
 # IDE/Editor specific files
 .vscode/
 .idea/
+
+# check for files that should not be tracked
+*.pyc
+# Byte-compiled files
+*.pyo
+# Compiled Python files
+*.pyd
+# Cython compiled files
+*.pdb
+# Python debug files
+*.egg-info/
+# Egg metadata
+dist/
+# Distribution files
+build/
+# Build directory
+*.log
+# Log files
+*.sqlite3
+.pytest_cache/
+# Pytest cache directory
+
+arch_calculator.egg-info/
+# Egg info directory
