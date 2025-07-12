@@ -29,3 +29,7 @@ build/
 
 arch_calculator.egg-info/
 # Egg info directory
+
+/dist/
+/build/
+*.spec
