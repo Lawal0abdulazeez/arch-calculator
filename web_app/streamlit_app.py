@@ -5,7 +5,10 @@ import requests
 import pandas as pd
 
 # Define the URL of our FastAPI backend
-BACKEND_URL = "http://127.0.0.1:8000/calculate/"
+#BACKEND_URL = "http://127.0.0.1:8000/calculate/"
+
+BACKEND_URL = "https://arch-calculator-api.onrender.com/"
+
 
 # --- Page Configuration ---
 st.set_page_config(
